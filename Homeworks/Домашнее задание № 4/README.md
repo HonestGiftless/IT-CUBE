@@ -20,4 +20,4 @@
 * 29-36: отсеки с нечетным номером - черные, а отсеки с четным номером - красные.
 
 <h3 align="center">Напишите программу, которая определяет цвет отсека, по введенному числу.</h3>
-![image](https://github.com/HonestGiftless/IT-CUBE/assets/113893391/96b71279-c3fc-41eb-be1a-8102f7be63b8)
+![image](https://github.com/HonestGiftless/IT-CUBE/assets/113893391/502789f1-97f8-405a-aab2-eb0468e459d3)
