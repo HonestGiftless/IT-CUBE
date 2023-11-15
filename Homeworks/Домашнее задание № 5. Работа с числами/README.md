@@ -15,3 +15,19 @@
 | 18 | 85 |
 | 19 | 89 |
 
+<h1 align="center">Задание 2</h1>
+<h3 align="center">Вводятся 3 строки в случайном порядке. Напишите программу, которая выясняет, можно ли из длин этих строк построить арифметическую прогрессию.</h3>
+
+| Ввод | Вывод |
+| :--: | :---: |
+| abc<br />a<br />abcde | Да |
+| 2434<br />90099<br />21 | Нет |
+| aaaaaaaaaa10<br />1111111Nm<br />22222r | Да |
+| rooooooooooooooooorr<br />qqqqqqqewrtyyyy234<br />1112hhhhhhhhhhhhrrr | Да |
+| rrr<br />Python3.8<br />Psyq | Нет |
+| weeeeeee2<br />eeeegggggggggg<br />3444 | Да |
+| a<br />123<br />1234a | Да |
+| EDDY<br />forrest<br />vinny | Нет |
+| r<br />bggggggggg4<br />rsfffh | Да |
+| aaaaaa<br />bbbbbbbb<br />cccccc | Нет |
+| а иии 12345678 | Нет |
