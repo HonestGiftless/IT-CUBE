@@ -1,0 +1,50 @@
+body {
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-family: 'JetBrains Mono';
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    margin-left: 35%;
+}
+
+tr:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+.container {
+    text-align: center;
+    padding: 50px;
+    background-color: bisque;
+    margin-bottom: 30px;
+}
+
+.first-block {
+    box-shadow: -10px -10px 10px 0px black;
+}
+
+.second-block {
+    box-shadow: inset -10px 10px 5px -5px black;
+}
+
+.third-block {
+    box-shadow: -5px -5px 5px 0 red,
+                5px 5px 5px 0 blue;
+}
+
+.fourth-block {
+    box-shadow: 0 0 5px 5px greenyellow;
+}
+
+.fifth-block {
+    box-shadow: 0px 0px 16px 11px rgba(34, 60, 80, 0.2);
+}
