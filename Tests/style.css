@@ -1,50 +1,56 @@
 body {
-    display: block;
-    margin-left: 25%;
-    margin-right: 25%;
-    font-family: 'JetBrains Mono';
-}
-
-td, th {
-    border: 1px solid black;
-    padding: 5px;
-    text-align: center;
-}
-
-table {
-    border-collapse: collapse;
-    margin-bottom: 30px;
-    margin-left: 35%;
-}
-
-tr:nth-child(2n) {
-    background-color: aquamarine;
+    background-color: bisque;
 }
 
 .container {
-    text-align: center;
-    padding: 50px;
-    background-color: bisque;
-    margin-bottom: 30px;
+    width: 500px;
+    height: 300px;
+    float: left;
+    margin: 10px;
+    background-color: white;
 }
 
-.first-block {
-    box-shadow: -10px -10px 10px 0px black;
+.flag1 {
+    background-image: linear-gradient(90deg, #009b48 33.3%, white 33.3% 66.6%, #ff7900 66.6% 100%);
 }
 
-.second-block {
-    box-shadow: inset -10px 10px 5px -5px black;
+.flag2 {
+    background-image: linear-gradient(45deg,
+                                    #ce1127 35%,
+                                    white 35% 40%,
+                                    black 40% 60%,
+                                    white 60% 65%,
+                                    #ce1127 65% 100%);
 }
 
-.third-block {
-    box-shadow: -5px -5px 5px 0 red,
-                5px 5px 5px 0 blue;
+.flag3 {
+    background-image: linear-gradient(135deg,
+                                    #009b48 40%,
+                                    #fcdd49 40% 60%,
+                                    #ce1127 60% 100%);
 }
 
-.fourth-block {
-    box-shadow: 0 0 5px 5px greenyellow;
+.flag4 {
+    background-image: linear-gradient(180deg,
+                    #ce1127 25%,
+                    #1a1f70 25% 50%,
+                    #fcdd49 50% 75%,
+                    #009b48 75% 100%);
 }
 
-.fifth-block {
-    box-shadow: 0px 0px 16px 11px rgba(34, 60, 80, 0.2);
+.flag5 {
+    background-image: linear-gradient(180deg,
+                                    #449dd2 35%,
+                                    white 35% 40%,
+                                    black 40% 60%,
+                                    white 60% 65%,
+                                    #449dd2 65% 100%);
+}
+
+.flag6 {
+    background-image: linear-gradient(180deg,
+                                    #ce1127 50%,
+                                    #009b48 50% 100%);
+    background-position: 150px 0;
+    background-repeat: no-repeat;
 }
