@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'JetBrains Mono';
+}
+
+/* ШАПКА САЙТА */
+
+header {
+    /* height: 100px; */
+    padding: 0 25px;
+    background-color: black;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.authorization-container,
+.logo-container,
+tr {
+    align-items: center;
+}
+
+.logo-item {
+    color: white;
+}
+
+.navigation-container {
+    width: 100%;
+}
+
+.navigation-table,
+tbody,
+tr {
+    width: 100%;
+    height: 100%;
+}
+
+tr {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.authorization-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+}
+
+.authorization-container > a {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: larger;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.nav-button:hover {
+    color: rgb(119, 149, 237);
+    transition: .3s;
+}
+
+.profile-buttons {
+    height: 40px;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(59, 125, 248);
+    transition: .3s;
+
+    font-weight: bold;
+    font-family: 'JetBrains Mono';
+    color: white;
+
+}
+
+.profile-buttons:hover {
+    background-color: rgb(55, 110, 212);
+    box-shadow: 0 0 5px 1px white;
+    transition: .3s;
+}
+
+/* ОСНОВА САЙТА */
+
+main {
+    padding: 30px;
+    background: rgb(237, 237, 237);
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+
+.product-container {
+    width: 210px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.product-image-container > img {
+    width: 200px;
+    height: 200px;
+}
+
+.product-description {
+    margin-bottom: 20px;
+}
+
+/* .product-description > p {
+    text-align: justify;
+    margin-top: 10px;
+    font-size: 14px;
+} */
+
+.buy-button-container {
+    margin-bottom: 5px;
+}
+
+.buy-btn {
+    height: 40px;
+    padding: 10px;
+
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(111, 162, 255);
+    transition: .3s;
+
+    font-weight: bold;
+    font-family: 'JetBrains Mono';
+}
+
+.test-block {
+    height: 400px;
+    background-color: rgb(237, 237, 237);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 20px;
+}
+
+.contain {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.item3 {
+    grid-column: span 2;
+}
