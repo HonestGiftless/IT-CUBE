@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Playfair Display';
+}
+
+header {
+    background: linear-gradient(to bottom, black 60%, gray);
+    /* Объяснить почему не пиксели */
+    /* padding: 10px 300px 0 300px; */
+    padding: 3% 15%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-page {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+
+    transition: .2s;
+}
+
+.link-page:hover {
+    color: gray;
+
+    transition: .2s;
+}
