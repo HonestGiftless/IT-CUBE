@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh; /* 100 процентов от просматриваемого экрана */
+    display: flex;
+}
+
+.navigation {
+    height: inherit;
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(70, 71, 71);
+    padding: 0 1%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-li {
+    margin-top: 40%;
+}
+
+.profile-link-container {
+    margin-bottom: 40%;
+}
+
+/* Для мобильных устройств до 576px */
+@media (max-width: 575.98px) {
+    .nav-li {
+        display: flex;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .profile-link-container {
+        display: flex;
+    } 
+
+    .nav-img {
+        width: 50%;
+    }
+}
+
+/* Для планшетов (landscape) от 576px до 767px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .nav-li {
+        display: flex;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .profile-link-container {
+        display: flex;
+    } 
+
+    .nav-img {
+        width: 70%;
+    }
+}
+
+/* Для планшетов и маленьких ноутбуков (portrait) от 768px до 991px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nav-li {
+        display: flex;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .profile-link-container {
+        display: flex;
+    } 
+
+    .nav-img {
+        width: 80%;
+    }
+}
+
+/* Для ноутбуков и десктопов (от 992px до 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .nav-li {
+        display: flex;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .profile-link-container {
+        display: flex;
+    } 
+
+    .nav-img {
+        width: 90%;
+    }
+}
+
+/* Для широких десктопов (1200px и выше) */
+@media (min-width: 1200px) {
+    .nav-li {
+        display: flex;
+    }
+
+    a {
+        text-align: center;
+    }
+
+    .profile-link-container {
+        display: flex;
+    } 
+
+    .nav-img {
+        width: 100%;
+    }
+}
